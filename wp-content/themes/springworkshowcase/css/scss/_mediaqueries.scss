@@ -1,0 +1,122 @@
+// iPhone 6 Portrait
+@media (min-width: 375px) {
+	.gridder .gridder-list,
+	.gridder .gridder-list .image-container{
+		@include thumbSize(345px);
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+	/*
+	#search{
+		float: right;
+	}
+	*/
+
+	#showcase-nav .showcase-menu{
+		//width:calc(100% - 250px);
+	}
+
+	#showcase-search{ width:auto; }
+
+	#search{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	#searchform{ margin: 0 auto; }
+
+	.gridder .gridder-list {
+		margin: 10px;		
+	}
+
+	.gridder .gridder-list,
+	.gridder .gridder-list .image-container{
+		@include thumbSize(230px);
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	.gridder-nav.prev,
+	.gridder-nav.next{
+		display:inline-block;
+	}
+
+	.gridder .gridder-list,
+	.gridder .gridder-list .image-container{
+		@include thumbSize(320px);
+	}
+
+	
+
+	/*
+
+	#search{
+		position:static;
+		right:0;
+	}
+	*/
+
+	#header{
+		position: fixed;
+		height: 140px;
+		#branding{
+			padding-top:19px;
+			.blandlogo{
+				width: auto;
+				height: 102px;
+			}		
+		}
+
+		#header-cta{
+			padding-top:45px;
+
+			a.button.bt_transparent,
+			.bt_transparent{
+				font-size: 20px;
+				margin:0px 0px 0px 20px;
+				padding: 15px 20px;
+			}
+
+			a.button.bt_tel,
+	    	.bt_tel{
+	    		font-size: 20px;
+	    	}
+		}
+	}
+
+	#main-content{
+		margin-top: 160px;
+	}
+
+	#footer{
+		position: fixed;
+		z-index: 999;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	
+}
+
+// Large devices (desktops, 1024px and up)
+@media (min-width: 1024px) {
+	
+	.gridder .gridder-list,
+	.gridder .gridder-list .image-container{
+		@include thumbSize(290px);
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	.gridder .gridder-list,
+	.gridder .gridder-list .image-container{
+		@include thumbSize(350px);
+	}
+}

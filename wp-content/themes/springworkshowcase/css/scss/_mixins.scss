@@ -1,0 +1,4 @@
+@mixin thumbSize($width) {
+  width: $width;
+  height: round($width * (9/16));
+}

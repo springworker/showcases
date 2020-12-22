@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'AvenirNext-Medium';
+    src: url('fonts/2F70DA_0_0.eot');
+    src: url('fonts/2F70DA_0_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/2F70DA_0_0.woff2') format('woff2'),
+    url('fonts/2F70DA_0_0.woff') format('woff'),
+    url('fonts/2F70DA_0_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AvenirNext-Bold';
+    src: url('fonts/2F70DF_0_0.eot');
+    src: url('fonts/2F70DF_0_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/2F70DF_0_0.woff2') format('woff2'),
+    url('fonts/2F70DF_0_0.woff') format('woff'),
+    url('fonts/2F70DF_0_0.ttf') format('truetype');
+}
+
+body {
+  font-size: 15px;
+  font-family: "AvenirNext-Medium", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+    font-family: "AvenirNext-Bold", sans-serif;
+    font-size: 60px;
+    line-height: 1;
+}
+
+h2{
+    font-family: "AvenirNext-Bold", sans-serif;
+    font-size: 40px;
+}
+
+h3{
+    font-family: "AvenirNext-Bold", sans-serif;
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+b {
+    font-family: "AvenirNext-Bold", sans-serif;
+}

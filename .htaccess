@@ -1,0 +1,16 @@
+AuthType Basic
+AuthName "Passwortschutz"
+require valid-user
+AuthUserFile /kunden/504045_04107/webseiten/springwork/docroot/showcase/.htpasswd
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /showcase/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /showcase/index.php [L]
+</IfModule>
+
+# END WordPress

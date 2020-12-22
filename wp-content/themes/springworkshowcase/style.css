@@ -1,0 +1,17 @@
+/*
+Theme Name: SpringWORK Showcase
+Theme URI: http://www.springwork.de
+Author: Sascha Weißbach
+Author URI: http://www.saschaweissbach.de
+Created on : 24/03/2017 Author: Sascha Weißbach
+Description: Das Theme beinhaltet eine Verwaltung von Referenzen. Es basiert auf Bootstrap 4 und dem Gridder Framework (https://github.com/oriongunning/gridder). Für die Verwendung muss das Plugin: Advanced Custom Fields (https://de.wordpress.org/plugins/advanced-custom-fields/) installiert werden.
+Version: 1.0
+License: Customized for SpringWORK
+Tags: white, post-formats
+Text Domain: springworkshowcase
+*/
+body,
+html{
+	padding:0;
+	margin:0;
+}
